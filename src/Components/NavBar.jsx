@@ -2,7 +2,11 @@ import React from "react";
 
 function NavBar() {
     return (
-        <div>NavBar</div>
+        <div>NavBar
+        <button>
+            <Link to="/transactions/new">New Transaction</Link>
+        </button>
+        </div>
     )
 }
 
